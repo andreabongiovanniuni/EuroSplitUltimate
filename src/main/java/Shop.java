@@ -1,7 +1,4 @@
-import java.util.HashMap;
-import java.util.List;
-import java.util.Objects;
-import java.util.Set;
+import java.util.*;
 
 public class Shop extends User {
     /** contiene il valore totale della spesa*/
@@ -13,10 +10,10 @@ public class Shop extends User {
     public int id;
 
     /** Lista delle persone che partecipano alla spesa */
-    public List<User> participants;
+    public ArrayList<User> participants;
 
      /** costruttore */
-    public Shop(double total, User creditor, List<User> participants) {
+    public Shop(double total, User creditor, ArrayList<User> participants) {
         this.total = total;
         this.creditor = creditor;
         this.participants = participants;
@@ -48,7 +45,7 @@ public class Shop extends User {
     }
 
     /** setta/cambia la lista di utenti che partecipano alla spesa */
-    public void setParticipants(List<User> debtorsList) {
+    public void setParticipants(ArrayList<User> debtorsList) {
         this.participants = debtorsList;
     }
 
@@ -128,7 +125,7 @@ public class Shop extends User {
      * SpecialSplit tiene conto della spesa comune tra tutti i partecipanti e in seguito considera i valori condivisi
      * da sottogruppi di partecipants
      */
-    public void SpecialSplit(double[] prices, HashMap<Integer, List<User>> users2){
+    public void SpecialSplit(ArrayList<Double> prices, LinkedHashMap<Integer, LinkedList<User>> users2){
         //common pay
         double specialstotal = 0;
         for(double i : prices){
@@ -139,10 +136,12 @@ public class Shop extends User {
 
         //split the special products
         Set<Integer> keys = users2.keySet();
-        int i = 0;
+        Iterator<Double> i = prices.iterator();
         for (Integer key : keys) {
-            EqualSplit(prices[i], users2.get(key));
-            ++i;
+            if(i.hasNext()) {
+                Double p = i.next();
+                EqualSplit(p, users2.get(key));
+            }
         }
     }
 }
