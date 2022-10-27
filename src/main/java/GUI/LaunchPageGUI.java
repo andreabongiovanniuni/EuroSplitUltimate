@@ -1,3 +1,6 @@
+package GUI;
+
+import basics.*;
 
 import javax.swing.*;
 import java.awt.*;

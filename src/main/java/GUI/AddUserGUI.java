@@ -1,3 +1,7 @@
+package GUI;
+
+import basics.*;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -90,6 +94,7 @@ public class AddUserGUI extends JFrame implements ActionListener {
         label5.setBounds(500, 575, 50, 50);
         label6.setBounds(700, 575, 50, 50);
     }
+
 
     @Override
     public void actionPerformed(ActionEvent e) {

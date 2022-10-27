@@ -1,4 +1,4 @@
-package databasefinal;
+package LearnDatabase;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -52,7 +52,7 @@ public class BasicOperations {
 
     public void run() {
         try {
-            System.out.println("\n- reading database...");
+            System.out.println("\n-c reading database...");
             testSelect();
         } catch (SQLException e) {
             System.out.println("Something went wrong... " + e.getMessage());

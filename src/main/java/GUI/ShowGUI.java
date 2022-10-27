@@ -1,3 +1,7 @@
+package GUI;
+
+import GUI.AddUserGUI;
+import basics.*;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

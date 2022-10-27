@@ -1,4 +1,4 @@
-package databasefinal;
+package LearnDatabase;
 
 
 import java.sql.*;
@@ -13,7 +13,7 @@ import java.util.TimeZone;
  */
 public class DBManager {
     public static final String JDBC_Driver_SQLite = "org.sqlite.JDBC";
-    public static final String JDBC_URL_SQLite = String.format("jdbc:sqlite:%s", "ooprogramming.sqlite");
+    public static final String JDBC_URL_SQLite = String.format("jdbc:sqlite:%s", "eurosplitdatas.sqlite");
 
     public static final String JDBC_Driver_MySQL = "com.mysql.cj.jdbc.Driver";
     public static final String JDBC_URL_MySQL = "jdbc:mysql://localhost:3306/jdbc_schema?user=nicola&password=qwertyuio&serverTimezone=" + TimeZone.getDefault().getID();

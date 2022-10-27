@@ -4,10 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dddaebcc-2b3d-4f60-be13-8da775629fa4" name="Changes" comment="NewProject">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ooprogramming.sqlite" afterDir="false" />
+    <list default="true" id="dddaebcc-2b3d-4f60-be13-8da775629fa4" name="Changes" comment="Gui added, project updated, database in start phase">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DatabaseNew/ESdatabase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AddShopGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/AddShopGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AddUserGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/AddUserGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DebtsGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/DebtsGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LaunchPageGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/LaunchPageGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NotEqualSplitGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/NotEqualSplitGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ParticipantsGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ParticipantsGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PriceGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/PriceGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ShopStoryGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ShopStoryGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ShowGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ShowGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ShowParticipantsGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ShowParticipantsGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SplitModGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/SplitModGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SplitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SplitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/databasefinal/BasicOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LearnDatabase/BasicOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/databasefinal/DBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LearnDatabase/DBManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/databasefinal/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LearnDatabase/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +36,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,7 +66,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/andre/JetBrains/EuroSplitUltimate/src/main/java"
+    "last_opened_file_path": "C:/Users/andre/JetBrains/EuroSplitUltimate/src/main/java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -51,11 +79,11 @@
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="BasicOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="databasefinal.BasicOperations" />
+      <option name="MAIN_CLASS_NAME" value="LearnDatabase.BasicOperations" />
       <module name="EuroSplitUltimate.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="databasefinal.*" />
+          <option name="PATTERN" value="LearnDatabase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,7 +121,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666798242611</updated>
-      <workItem from="1666798244657" duration="2018000" />
+      <workItem from="1666798244657" duration="10390000" />
     </task>
     <task id="LOCAL-00001" summary="NewProject">
       <created>1666798844086</created>
@@ -102,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666798844086</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Gui added, project updated, database in start phase">
+      <created>1666863417486</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666863417486</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +157,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="NewProject" />
-    <option name="LAST_COMMIT_MESSAGE" value="NewProject" />
+    <MESSAGE value="Gui added, project updated, database in start phase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gui added, project updated, database in start phase" />
   </component>
 </project>

@@ -1,3 +1,5 @@
+import basics.User;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -43,24 +45,24 @@ public class SplitTest {
         */
        /* //Special Product
         double[] a = {2.86, 1.66, 1.22, 1.91, 2.95, 3.5, 2.43, 2.60, 2.79, 1.28, 0.48, 0.96, 1.33};
-     ArrayList<User> sb1 = new ArrayList<>(List.of(u1, u5));
-     ArrayList<User> sb2 = new ArrayList<>(List.of(u1));
-     ArrayList<User> sb3 = new ArrayList<>(List.of(u1, u3));
-     ArrayList<User> sb4 = new ArrayList<>(List.of(u1));
-     ArrayList<User> sb5 = new ArrayList<>(List.of(u1, u4));
-     ArrayList<User> sb6 = new ArrayList<>(List.of(u2, u3, u5));
-     ArrayList<User> sb7 = new ArrayList<>(List.of(u1, u5));
-     ArrayList<User> sb8 = new ArrayList<>(List.of(u1, u3, u4, u5));
-     ArrayList<User> sb9 = new ArrayList<>(List.of(u1, u2, u4, u5));
-     ArrayList<User> sb10 = new ArrayList<>(List.of(u1, u3, u5, u4));
-     ArrayList<User> sb11 = new ArrayList<>(List.of(u1));
-     ArrayList<User> sb12 = new ArrayList<>(List.of(u2, u4, u5));
-     ArrayList<User> sb13 = new ArrayList<>(List.of(u1, u2, u4));
-        Shop sh = new Shop(32.61, u1, users);
+     ArrayList<basics.User> sb1 = new ArrayList<>(List.of(u1, u5));
+     ArrayList<basics.User> sb2 = new ArrayList<>(List.of(u1));
+     ArrayList<basics.User> sb3 = new ArrayList<>(List.of(u1, u3));
+     ArrayList<basics.User> sb4 = new ArrayList<>(List.of(u1));
+     ArrayList<basics.User> sb5 = new ArrayList<>(List.of(u1, u4));
+     ArrayList<basics.User> sb6 = new ArrayList<>(List.of(u2, u3, u5));
+     ArrayList<basics.User> sb7 = new ArrayList<>(List.of(u1, u5));
+     ArrayList<basics.User> sb8 = new ArrayList<>(List.of(u1, u3, u4, u5));
+     ArrayList<basics.User> sb9 = new ArrayList<>(List.of(u1, u2, u4, u5));
+     ArrayList<basics.User> sb10 = new ArrayList<>(List.of(u1, u3, u5, u4));
+     ArrayList<basics.User> sb11 = new ArrayList<>(List.of(u1));
+     ArrayList<basics.User> sb12 = new ArrayList<>(List.of(u2, u4, u5));
+     ArrayList<basics.User> sb13 = new ArrayList<>(List.of(u1, u2, u4));
+        basics.Shop sh = new basics.Shop(32.61, u1, users);
 
 
 
-        LinkedHashMap<Integer, List<User>> mp2 = new LinkedHashMap<>();
+        LinkedHashMap<Integer, List<basics.User>> mp2 = new LinkedHashMap<>();
 
         mp2.put(1, sb1);
         mp2.put(2, sb2);
