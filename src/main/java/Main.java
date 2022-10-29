@@ -8,8 +8,11 @@ public class Main {
 
         Group g = new Group();
         /* HELP  */
-        ESdatabase DbEuroSplit = new ESdatabase("eurosplitdatas.sqlite");
-
+        try {
+            ESdatabase DbEuroSplit = new ESdatabase();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
         new LaunchPageGUI(g);
 
     }

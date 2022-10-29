@@ -9,7 +9,7 @@ public class Shop extends User {
     public User creditor;
 
     /** id della spesa */
-    public int id;
+    public String id;
 
     /** Lista delle persone che partecipano alla spesa */
     public ArrayList<User> participants;
