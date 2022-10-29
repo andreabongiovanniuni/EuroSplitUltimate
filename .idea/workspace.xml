@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dddaebcc-2b3d-4f60-be13-8da775629fa4" name="Changes" comment="Working on database again">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/database/ESdatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DatabaseNew/ESdatabase.java" beforeDir="false" />
+    <list default="true" id="dddaebcc-2b3d-4f60-be13-8da775629fa4" name="Changes" comment="Working on database: insert">
       <change beforePath="$PROJECT_DIR$/src/main/java/GUI/AddShopGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/AddShopGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ShowGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ShowGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LearnDatabase/BasicOperations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LearnDatabase/DBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/DBManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LearnDatabase/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/Shop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666798242611</updated>
       <workItem from="1666798244657" duration="18119000" />
-      <workItem from="1667024229407" duration="12234000" />
+      <workItem from="1667024229407" duration="12554000" />
     </task>
     <task id="LOCAL-00001" summary="NewProject">
       <created>1666798844086</created>
@@ -151,7 +138,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666881420515</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Working on database: insert">
+      <created>1667037612814</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667037612814</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Working on database: insert">
+      <created>1667037693810</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667037693810</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +175,7 @@
     <MESSAGE value="Gui added, project updated, database in start phase" />
     <MESSAGE value="Working on database" />
     <MESSAGE value="Working on database again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on database again" />
+    <MESSAGE value="Working on database: insert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on database: insert" />
   </component>
 </project>
