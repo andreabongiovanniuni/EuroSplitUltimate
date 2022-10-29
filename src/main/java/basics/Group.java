@@ -1,5 +1,5 @@
 package basics;
-
+import database.*;
 import java.util.ArrayList;
 
 public class Group extends User {
@@ -12,10 +12,12 @@ public class Group extends User {
 
     public void addUser(User u){
         group.add(u);
+        ESdatabase.insertUser(u);
     }
 
     public void removeUser(String username){
         group.removeIf(u -> u.getUsername().equals(username));
+        ESdatabase.deleteUser(username);
     }
 
     public ArrayList<User> getGroup() {

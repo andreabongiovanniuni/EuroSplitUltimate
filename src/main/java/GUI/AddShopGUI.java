@@ -1,6 +1,7 @@
 package GUI;
 
 import basics.*;
+import database.ESdatabase;
 
 import javax.swing.*;
 import java.awt.*;
@@ -107,13 +108,17 @@ public class AddShopGUI extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if(e.getSource() == create){
 
-            sh1 = new Shop(Double.parseDouble(totaltext.getText()), new User(creditortext.getText()), g1.getGroup());
-
+            sh1 = new Shop((idtext.getText()), Double.parseDouble(totaltext.getText()),
+                    new User(creditortext.getText()), g1.getGroup());
+            ESdatabase.insertShop(sh1);
+            ESdatabase.insertParticipate(sh1);
             System.out.println("Aggiunta la spesa di importo " + totaltext.getText() + " divisa in " + idtext.getText() +
                     ", " +
                     "per gli amici " + creditortext.getText() + ", effettuata il " + datatext.getText() );
             new SplitModGUI(g1, sh1);
+
             this.setVisible(false);
+
 
         }
         else if(e.getSource()== indietro){

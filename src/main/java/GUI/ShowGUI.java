@@ -1,6 +1,6 @@
 package GUI;
 
-import GUI.AddUserGUI;
+import GUI.*;
 import basics.*;
 import javax.swing.*;
 import java.awt.*;

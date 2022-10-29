@@ -15,7 +15,8 @@ public class Shop extends User {
     public ArrayList<User> participants;
 
      /** costruttore */
-    public Shop(double total, User creditor, ArrayList<User> participants) {
+    public Shop(String id, double total, User creditor, ArrayList<User> participants) {
+        this.id=id;
         this.total = total;
         this.creditor = creditor;
         this.participants = participants;

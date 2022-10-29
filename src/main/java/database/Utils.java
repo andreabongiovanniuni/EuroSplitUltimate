@@ -1,4 +1,4 @@
-package LearnDatabase;
+package database;
 
 
 import java.io.File;
