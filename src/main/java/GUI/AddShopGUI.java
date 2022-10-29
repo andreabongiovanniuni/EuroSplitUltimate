@@ -7,7 +7,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-/** Does it work?*/
+
 public class AddShopGUI extends JFrame implements ActionListener {
     Group g1;
     Shop sh1;

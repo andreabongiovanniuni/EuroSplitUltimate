@@ -1,7 +1,7 @@
 package basics;
 import database.*;
 import java.util.ArrayList;
-/** Does it work?*/
+
 public class Group extends User {
 
     ArrayList<User> group;
